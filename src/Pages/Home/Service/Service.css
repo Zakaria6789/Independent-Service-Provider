@@ -3,6 +3,7 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.2);
+    transition: all 0.2s;
 }
 
 .service-item:hover {
@@ -14,6 +15,16 @@
     background-color: purple;
     padding: 15px;
     border-radius: 10px;
+}
+
+.service-item .name {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.service-item span {
+    font-size: 25px;
+    color: purple;
 }
 
 .service-item button {
