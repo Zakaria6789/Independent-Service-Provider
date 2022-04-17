@@ -8,8 +8,8 @@ const Banner = () => {
             <div className="container">
                 <div className='banner-description'>
                     <div className='introduction-container'>
-                        <p className='introduction text-primary'>Our Introduction</p>
-                        <div className='line bg-primary'></div>
+                        <p className='introduction'>Our Introduction</p>
+                        <div className='line'></div>
                     </div>
                     <h1 className='banner-title'>Book Online For Doctor's Appointment</h1>
                     <p className='banner-text'>Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate.Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate</p>

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Psychological",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it t",
+        "img": "http://kamleshyadav.com/healthcare/healthcare/assets/images/service-iocn1.png",
+        "visit": "51"
+    },
+    {
+        "id": 2,
+        "name": "Cardiology",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it t",
+        "img": "http://kamleshyadav.com/healthcare/healthcare/assets/images/service-iocn2.png",
+        "visit": "99"
+    },
+    {
+        "id": 3,
+        "name": "Gynecology",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it t",
+        "img": "http://kamleshyadav.com/healthcare/healthcare/assets/images/service-iocn3.png",
+        "visit": "49"
+    },
+    {
+        "id": 4,
+        "name": "Pediatrician",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it t",
+        "img": "http://kamleshyadav.com/healthcare/healthcare/assets/images/service-iocn4.png",
+        "visit": "75"
+    }
+]

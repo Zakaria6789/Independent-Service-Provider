@@ -1,0 +1,33 @@
+.service-item {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.service-item:hover {
+    box-shadow: 3px 3px 0 5px rgb(128, 0, 128, 0.2);
+}
+
+.service-item img {
+    width: 100px;
+    background-color: purple;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.service-item button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: purple;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: all 0.3s;
+}
+
+.service-item button:hover {
+    background-color: black;
+    color: white;
+    border: 0;
+}
