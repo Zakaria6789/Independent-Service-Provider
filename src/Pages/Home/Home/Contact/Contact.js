@@ -11,6 +11,7 @@ const Contact = () => {
                 <div className='title-underline'></div>
             </div>
             <div className='contact-container'>
+                {/***************** contact-left **************/}
                 <div className='contact-form'>
                     <input type="text" placeholder='Your Name' />
                     <br />
@@ -20,6 +21,7 @@ const Contact = () => {
 
                     <button className='sent-massage-button'>Send Massage</button>
                 </div>
+                {/***************** contact-right **************/}
                 <div>
                     <div className='address-box'>
                         <div className="icon">

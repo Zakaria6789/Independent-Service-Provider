@@ -1,3 +1,4 @@
+/***************** Service-card-design ******************/
 .service-item {
     padding: 20px;
     border-radius: 10px;
@@ -43,7 +44,7 @@
     border: 0;
 }
 
-
+/***************** Responsive for mobile device ******************/
 @media screen and (min-width:250px) and (max-width:425px) {
     .service-item .name {
         font-size: 22px;

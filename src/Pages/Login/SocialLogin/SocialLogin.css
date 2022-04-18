@@ -1,0 +1,33 @@
+/***************** social-sign-In ******************/
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.or {
+    font-size: 18px;
+    margin: 0 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.line {
+    width: 40%;
+    height: 2px;
+    background-color: purple;
+}
+
+.other-login button {
+    margin: 5px 0;
+}
+
+
+.other-login button:hover {
+    background-color: black;
+}
+
+.other-login img {
+    margin-right: 10px;
+}

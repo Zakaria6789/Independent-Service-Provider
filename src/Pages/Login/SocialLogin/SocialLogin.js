@@ -1,4 +1,5 @@
 import React from 'react';
+import './SocialLogin.css';
 import google from '../../../images/social/google.png';
 import facebook from '../../../images/social/facebook.png';
 import github from '../../../images/social/github.png';

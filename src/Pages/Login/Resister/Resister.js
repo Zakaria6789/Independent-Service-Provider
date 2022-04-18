@@ -36,8 +36,6 @@ const Resister = () => {
             setErrorMessage('');
         }
         createUserWithEmailAndPassword(email, password);
-
-
     }
 
     if (user) {

@@ -4,10 +4,12 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <div className='container blogs-container'>
+            {/***************** blogs-title **************/}
             <div>
                 <h2 className='section-title'>Some Questions</h2>
                 <div className='title-underline'></div>
             </div>
+            {/***************** blogs **************/}
             <div className='blog'>
                 <h4>Q1 : What's the difference between Authorization and Authentication ?</h4>
                 <p>Ans : Some differences between Authorization and Authentication : <br />

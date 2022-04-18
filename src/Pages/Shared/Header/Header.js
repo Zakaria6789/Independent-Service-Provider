@@ -12,12 +12,14 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className='navbar-container' variant="dark">
             <Container>
+                {/***************** navbar-logo **************/}
                 <Navbar.Brand as={Link} to="/home">
                     <img className='nav-img' width='40' src={logo} alt="" />
                     <span className='nav-text'>Patient Aid</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
+                    {/***************** navbar-link **************/}
                     <Nav className="ms-auto nav-link">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link href="/home#services">Services</Nav.Link>
