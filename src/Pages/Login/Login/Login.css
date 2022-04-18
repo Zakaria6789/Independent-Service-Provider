@@ -1,9 +1,8 @@
 .login-container {
-    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 60px 0;
 }
 
 .login {
