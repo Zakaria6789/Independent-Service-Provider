@@ -35,32 +35,34 @@ const Resister = () => {
 
     return (
         <div className='container'>
-            <form onSubmit={handleFormSubmit} className='login-container'>
-                <div className='login'>
-                    <div>
-                        <h2>Resister Form</h2>
-                        <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="" placeholder='Your Name' required />
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="" placeholder='Email Address' required />
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" placeholder='Your Password' id="" required />
-                        <label htmlFor="confirmPassword">Confirm Password</label>
-                        <input type="password" name="confirmPassword" placeholder='Confirm Password' id="" required />
-                        <div className='text-danger'>
-                            {error ? error?.message : errorMessage}
+            <div className="login-container">
+                <div className="login">
+                    <form onSubmit={handleFormSubmit}>
+                        <div>
+                            <h2>Resister Form</h2>
+                            <label htmlFor="name">Name</label>
+                            <input type="text" name="name" id="" placeholder='Your Name' required />
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" id="" placeholder='Email Address' required />
+                            <label htmlFor="password">Password</label>
+                            <input type="password" name="password" placeholder='Your Password' id="" required />
+                            <label htmlFor="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" placeholder='Confirm Password' id="" required />
+                            <div className='text-danger'>
+                                {error ? error?.message : errorMessage}
+                            </div>
+                            <input type="submit" value="Resister" />
+                            <p>Already member ? <Link className='text-decoration-none' to='/login'>Login Now</Link></p>
                         </div>
-                        <input type="submit" value="Resister" />
-                        <p>Already member ? <Link className='text-decoration-none' to='/login'>Login Now</Link></p>
-                    </div>
-                    <div className='or-container'>
-                        <div className='line'></div>
-                        <div className='or'>or</div>
-                        <div className='line'></div>
-                    </div>
+                        <div className='or-container'>
+                            <div className='line'></div>
+                            <div className='or'>or</div>
+                            <div className='line'></div>
+                        </div>
+                    </form>
                     <SocialLogin></SocialLogin>
                 </div>
-            </form>
+            </div>
         </div>
     );
 };
