@@ -1,0 +1,96 @@
+.login-container {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.login {
+    width: 400px;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 10px rgba(128, 0, 128, 0.3);
+    border-radius: 10px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-container input,
+.login-container label {
+    display: block;
+
+}
+
+.login-container label {
+    font-size: 19px;
+}
+
+input:not([type='submit']) {
+    width: 100%;
+    margin: 8px 0;
+    padding: 6px 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid purple;
+    font-size: 16px;
+}
+
+input:focus:not([type='submit']) {
+    border: 2px solid purple;
+    box-shadow: 2px 2px 10px rgba(128, 0, 128, 0.3);
+}
+
+.login input[type='submit'],
+.other-login button {
+    font-size: 16px;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 50px;
+    margin: 30px 0;
+    border: 0;
+    background-color: purple;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: all 0.3s;
+}
+
+.login input[type='submit']:hover {
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.or {
+    font-size: 18px;
+    margin: 0 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.line {
+    width: 40%;
+    height: 2px;
+    background-color: purple;
+}
+
+.other-login button {
+    margin: 5px 0;
+}
+
+
+.other-login button:hover {
+    background-color: black;
+}
+
+.other-login img {
+    margin-right: 10px;
+}
