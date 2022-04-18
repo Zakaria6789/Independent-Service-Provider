@@ -1,0 +1,11 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 88vh;
+}
+
+.not-found h2 {
+    color: purple;
+}
