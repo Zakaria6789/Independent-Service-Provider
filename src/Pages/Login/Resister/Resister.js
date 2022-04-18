@@ -12,13 +12,13 @@ const Resister = () => {
                     <div>
                         <h2>Resister Form</h2>
                         <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="" placeholder='Your Name' />
+                        <input type="text" name="name" id="" placeholder='Your Name' required />
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="" placeholder='Email Address' />
+                        <input type="email" name="email" id="" placeholder='Email Address' required />
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" placeholder='Your Password' id="" />
+                        <input type="password" name="password" placeholder='Your Password' id="" required />
                         <label htmlFor="confirmPassword">Confirm Password</label>
-                        <input type="password" name="confirmPassword" placeholder='Confirm Password' id="" />
+                        <input type="password" name="confirmPassword" placeholder='Confirm Password' id="" required />
                         <input type="submit" value="Resister" />
                         <p>Already member ? <Link className='text-decoration-none' to='/login'>Login Now</Link></p>
                     </div>

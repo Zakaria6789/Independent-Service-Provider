@@ -7,6 +7,7 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Login from './Pages/Login/Login/Login';
 import Resister from './Pages/Login/Resister/Resister';
+import CheckOut from './Pages/CheckOut/CheckOut';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/checkout' element={<CheckOut></CheckOut>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/resister' element={<Resister></Resister>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

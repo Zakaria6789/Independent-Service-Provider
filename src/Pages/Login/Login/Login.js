@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
-import facebook from '../../../images/social/facebook.png';
 import google from '../../../images/social/google.png';
+import facebook from '../../../images/social/facebook.png';
 import github from '../../../images/social/github.png';
 import { Link } from 'react-router-dom';
 
@@ -13,9 +13,9 @@ const Login = () => {
                     <div>
                         <h2>Login Form</h2>
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="" placeholder='Email Address' />
+                        <input type="email" name="email" id="" placeholder='Email Address' required />
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" placeholder='Your Password' id="" />
+                        <input type="password" name="password" placeholder='Your Password' id="" required />
                         <a className='text-decoration-none' href="#reset">Forgot Password ?</a>
                         <input type="submit" value="Login" />
                         <p>Not a member ? <Link className='text-decoration-none' to='/resister'>Resister Now</Link></p>
