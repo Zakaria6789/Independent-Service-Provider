@@ -5,7 +5,7 @@ import { faClock, faCoffee, faEnvelope, faLocationDot, faMapMarker, faMessage, f
 
 const Contact = () => {
     return (
-        <div className='container'>
+        <div id='contact' className='container'>
             <div>
                 <h2 className='section-title'>Contact Us</h2>
                 <div className='title-underline'></div>
