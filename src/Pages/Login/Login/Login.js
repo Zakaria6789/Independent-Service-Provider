@@ -10,6 +10,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { async } from '@firebase/util';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../Shared/Loading/Loading';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -29,6 +30,10 @@ const Login = () => {
     const [sendPasswordResetEmail, sending, error1] = useSendPasswordResetEmail(
         auth
     );
+
+    if (loading) {
+        return <Loading></Loading>;
+    }
 
     if (user) {
         navigate(from, { replace: true });

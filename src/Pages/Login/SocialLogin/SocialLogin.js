@@ -5,6 +5,7 @@ import github from '../../../images/social/github.png';
 import auth from '../../../firebase.init';
 import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
+import Loading from '../../Shared/Loading/Loading';
 
 const SocialLogin = () => {
     let navigate = useNavigate();
@@ -14,6 +15,10 @@ const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithFacebook, user2, loading2, error2] = useSignInWithFacebook(auth);
     const [signInWithGithub, user3, loading3, error3] = useSignInWithGithub(auth);
+
+    if (loading || loading2 || loading3) {
+        return <Loading></Loading>;
+    }
 
     if (user || user2 || user3) {
         navigate(from, { replace: true });
