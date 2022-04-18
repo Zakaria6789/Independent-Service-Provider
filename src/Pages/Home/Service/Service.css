@@ -42,3 +42,11 @@
     color: white;
     border: 0;
 }
+
+
+@media screen and (min-width:250px) and (max-width:425px) {
+    .service-item .name {
+        font-size: 22px;
+
+    }
+}

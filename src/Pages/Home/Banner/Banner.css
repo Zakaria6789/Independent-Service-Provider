@@ -13,8 +13,6 @@
 
 .banner-description {
     width: 500px;
-
-
 }
 
 .introduction-container {
@@ -29,10 +27,11 @@
 }
 
 .line {
-    width: 50px;
+    width: 80px !important;
     height: 3px;
     margin-left: 10px;
     margin-bottom: 8px;
+    background-color: black !important;
 }
 
 .banner-title {
@@ -64,4 +63,30 @@
     background-color: black;
     color: white;
     border: 0;
+}
+
+
+
+@media screen and (min-width:250px) and (max-width:425px) {
+    .banner-container {
+        height: 600px;
+    }
+
+    .introduction {
+        font-size: 15px;
+    }
+
+    .line {
+        width: 20% !important;
+        margin-bottom: 15px;
+    }
+
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+
 }

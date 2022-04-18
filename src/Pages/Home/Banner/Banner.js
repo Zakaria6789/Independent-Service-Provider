@@ -11,8 +11,8 @@ const Banner = () => {
                         <p className='introduction'>Our Introduction</p>
                         <div className='line'></div>
                     </div>
-                    <h1 className='banner-title'>Book Online For Doctor's Appointment</h1>
-                    <p className='banner-text'>Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate.Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante, tiam ltricies lputate</p>
+                    <h1 className='banner-title'>Expert Doctor's Appointment ! Book Now</h1>
+                    <p className='banner-text'>For getting proper treatment , We always should to go a experenced doctor. Maximum time, when our problem is so serius ,then we take the action. But is totally wrong. Remember all time, "Health is the best wealth"</p>
                     <Link to='/login'><button className='banner-btn'>Appointment</button></Link>
                 </div>
             </div>
